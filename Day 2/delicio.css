@@ -1,0 +1,44 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.heading {
+	width:95%;
+	margin:auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.logo {
+	font-size: 2em;
+	font-style: italic;
+	display: inline-block;
+	margin-right: 200px;
+
+
+}
+
+.navbar {
+	display: inline-block;
+	word-spacing: 24px;
+	font-size: .8em;
+}
+
+.splash {
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background-color: black;
+}
+
+.footer {
+	margin-top: -26px;
+	padding-top: 0px;
+	background-color: black;
+}
+
+.head {
+	font-style: bold;
+	color: white;
+}

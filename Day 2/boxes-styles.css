@@ -1,0 +1,39 @@
+  * {
+  box-sizing: border-box;   
+  transition: .5s all ease;
+}
+
+.bigBox {
+  background: none;
+  width: 100%;
+}
+
+input[type=checkbox] + .bigBox > div {
+  margin: 2%;
+  background: cornflowerblue;
+  padding: 5%;
+  display: inline-block;
+  width: 40%;
+}
+
+input[type=checkbox]:checked + .bigBox > div {
+  display: block;
+}
+
+input[type=checkbox] + div div:not(:empty) {
+	border: 2px solid green;
+}
+
+input[type=checkbox] + div div:nth-child(3), input[type=checkbox] + div div:nth-child(4) {
+	background-color: antiquewhite;
+}
+
+div div:empty {
+	border: 3px solid red;
+	background-color: red;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+}
+
+
