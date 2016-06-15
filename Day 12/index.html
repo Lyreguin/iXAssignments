@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+	<script type="text/javascript" src="./script.js"></script>
+</head>
+<body ng-app="FormApp" ng-controller="MainCtrl">
+	<form ng-submit="validate()">
+		<div class="messages"></div>
+		<div>Name</div>
+		<input type="text" placeholder="{{namePlace}}" ng-model="nameInput">
+		<div>Phone Number</div>
+		<input type="text" placeholder="{{numPlace}}"" ng-model="numInput">
+		<div>Email</div>
+		<input type="text" placeholder="{{emailPlace}}" ng-model="emailInput">
+		<div>Password</div>
+		<input type="password" placeholder="{{passPlace}}" ng-model="passInput">
+		<div>Retype Password</div>
+		<input type="password" placeholder="{{rePassPlace}}" ng-model="rePassInput">
+		<br>
+		<input type="submit">
+	</form>
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DEM ANGLES</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+</head>
+<body ng-app>
+	<input type="text" ng-model="meow">
+	<p>You are {{meow}}</p>
+	<button ng-init="count = 30; reload = 0" ng-click="count = count - 1; reload = reload+1;" >FIRE</button>
+	<p>Cannonballs = {{count}}</p>
+	<p>Reload Request = {{reload}}</p>
+</body>	
+</html>
